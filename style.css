@@ -1,0 +1,58 @@
+html {
+  min-height: 100%;
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(to bottom left, red, yellow);
+}
+.tip-head {
+  display: INLINE-block;
+  color: aquamarine;
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+}
+.CONTENT {
+  margin-top: 40px;
+}
+input {
+  font-size: small;
+  min-width: 20em;
+  height: 2em;
+  text-align: center;
+  border-radius: 10px;
+}
+#people {
+  margin-top: 40px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  padding: 0.7em;
+}
+button {
+  background-color: transparent;
+  border: 0;
+  font-size: medium;
+  cursor: pointer;
+}
+li:hover {
+  background-color: rgba(255, 215, 0, 1);
+}
+#tip-share {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: xxx-large;
+}
